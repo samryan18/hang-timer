@@ -3,7 +3,7 @@ None of the popular hangboard timers (e.g. [Crimpd](https://my.crimpd.com/workou
 
 This app pairs with my speaker or bluetooth headphones to lead me through a hangboard sesh (or any type of interval sesh!).
 
-Here is a lil demo. The .mov -> .gif converter I used made it slo-mo but it actually counts seconds normally! It also plays recordings of my friends telling me to start and stop which is not reflected here :).
+Here is a lil demo. Converting it to gif makes it look slo-mo but I promise it actually counts seconds mostly normally. It also plays recordings of my friends telling me to start and stop which is not reflected here :).
 ![Demo](./assets/demo.gif)
 
 ### FAQ
