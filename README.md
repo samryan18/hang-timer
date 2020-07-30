@@ -3,7 +3,7 @@ None of the popular hangboard timers (e.g. [Crimpd](https://my.crimpd.com/workou
 
 This app pairs with my speaker or bluetooth headphones to lead me through a hangboard sesh (or any type of interval sesh!).
 
-Here is a lil demo. Converting it to gif makes it look slo-mo but I promise it actually counts seconds mostly normally. It also plays recordings of my friends telling me to start and stop which is not reflected here :).
+Here is a lil demo. Converting it to gif made it look slo-mo but I promise it actually counts seconds mostly normally. It also plays recordings of my friends telling me to start and stop which is not reflected here :).
 ![Demo](./assets/demo.gif)
 
 ### FAQ
@@ -13,13 +13,14 @@ Here is a lil demo. Converting it to gif makes it look slo-mo but I promise it a
 ### Requirements
 * python3 / pip
 
-This app should work on other systems but this was written and tested on Mac OS Mojave (10.14.6) using Python 3.6.6 and uses some packages that may be system dependent (e.g. `playsound`).
+This app should work on other systems but this was written and tested on Mac OS Mojave (10.14.6) using Python 3.6.6 and uses some python packages that may be system dependent (e.g. `playsound`).
 
 ### Instructions
 
 #### 1. Install:
 ```bash
 $ git clone https://github.com/samryan18/hang-timer.git
+$ cd hang-timer
 $ pip install .
 ```
 
