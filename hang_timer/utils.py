@@ -42,10 +42,10 @@ def beep_and_wait(
 
 
 def welcome_message(delay_before_start: float):
-    print(f"TIMER!\n" f"(PRESS CTRL-C TO STOP AT ANY TIME)\n")
+    print("TIMER!\n(PRESS CTRL-C TO STOP AT ANY TIME)\n")
 
     if delay_before_start > 0:
-        tqdm_prefix = f"👻 Starting in "
+        tqdm_prefix = "👻 Starting in "
         t0 = time.time()
         current_time = time.time() - t0
         with tqdm(
@@ -65,8 +65,8 @@ def beep(config: dict, sound_key: str):
     sound_paths = config["sound_paths"]
     try:
         playsound(f"{path}{sound_paths[sound_key]}")
-    except:
-        if config["debug_mode"]:
+    except OSError:
+        if "debug_mode" in config and config["debug_mode"]:
             raise
         elif "encouragement" not in sound_key:
             print("\a", end="")  # this makes a beep on OSX (who knew??)

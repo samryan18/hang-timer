@@ -1,6 +1,3 @@
-import sys
-import time
-
 import fire
 from colorama import Fore, Style
 

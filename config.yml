@@ -1,9 +1,8 @@
 config:
-  DEBUG_MODE: False
+  debug_mode: False
   path: "YOUR_SOUND_PATH/"
   sound_paths:
     start: "YOUR_FILENAME.m4a"
     stop: "YOUR_FILENAME.m4a"
     done: "YOUR_FILENAME.m4a"
     encouragement: "YOUR_FILENAME.m4a"
-
